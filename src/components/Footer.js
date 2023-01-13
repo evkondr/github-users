@@ -4,7 +4,7 @@ import { AiFillGithub } from 'react-icons/ai';
 
 const Footer = () => {
   return <Wrapper>
-        <a href='https://github.com/evkondr/github-users' target='_blank'><AiFillGithub/>source code</a>
+        <a href='https://github.com/evkondr/github-users' target='_blank' rel="noopener noreferrer"><AiFillGithub/>source code</a>
   </Wrapper>
 };
 
