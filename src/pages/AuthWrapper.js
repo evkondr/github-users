@@ -16,7 +16,7 @@ function AuthWrapper({children}) {
   }
   return <>{children}</>;
 }
-
+//STYLES
 const Wrapper = styled.section`
   min-height: 100vh;
   display: grid;

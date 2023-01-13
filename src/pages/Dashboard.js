@@ -2,6 +2,7 @@ import React from 'react';
 import { Info, Repos, User, Search, Navbar } from '../components';
 import loadingImage from '../images/preloader.gif';
 import { GithubContext } from '../context/context';
+import Footer from '../components/Footer';
 const Dashboard = () => {
   const {loading} = React.useContext(GithubContext);
   if(loading){
@@ -13,11 +14,12 @@ const Dashboard = () => {
   }
   return (
     <main>
-       <Navbar></Navbar>
-       <Search/>
-       <Info/>
-       <User/>
-       <Repos/>
+       <Navbar />
+       <Search />
+       <Info />
+       <User />
+       <Repos />
+       <Footer />
     </main>
   );
 };
